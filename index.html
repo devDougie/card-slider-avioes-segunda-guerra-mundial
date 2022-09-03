@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto MapaDev Week</title>
+    <link rel="shortcut icon" href="src/img/airplane-icon.png" height ="32" width="32" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+<body>
+    <header class="cabecalho"> 
+        <img src="src/img/airplane-icon.png" alt="aviao" class="aviao" srcset="">
+        <h1 class="titulo">MapaDev Week</h1>
+    </header>
+
+    <main class="aviao-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src\img\arrow-icon.png" height ="50" width="50" alt="seta voltar" srcset="">
+        </button>
+
+        <ul class="lista-avioes">
+            <li class="cartao selecionado fundo-cartao">
+                <div class="informacoes">
+                    <h2 class="nome">Spitfire MH434</h2>
+                    <img src="src/img/uk-flag.png" height ="37" width="73" alt="uk" srcset="">
+                </div>
+                <div class="container-imagem">
+                    <img src="src/img/spitfire.png" height ="169" width="300" alt="Spitfire" class="imagem-aviao" srcset="">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Fabricante: Supermarine Aviation Works<br/><br/>
+                                    Período de produção: 1938–1948<br/><br/>
+                                    Velocidade máxima: 650 km/h<br/><br/>
+                                    Altitude máxima: 11.500 m<br/><br/>
+                                    Armamento: (2x) canhões 20 mm Hispano Mk.II / (4x) metralhadoras 7,7 mm Browning<br/><br/>
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-cartao">
+                <div class="informacoes">
+                    <h2 class="nome">Messerschmitt Bf-109</h2>
+                    <img src="src/img/reich-flag.png" height ="37" width="73" alt="ger" srcset="">
+                </div>
+                <div class="container-imagem">
+                    <img src="src/img/messershmitt.png" height ="175" width="310" alt="Messerschmitt" class="imagem-aviao" srcset="">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Fabricante: Messerschmitt AG<br/><br/>
+                                    Período de produção: 1937-1945<br/><br/>
+                                    Velocidade máxima: 668 km/h<br/><br/>
+                                    Altitude máxima: 11.500 m<br/><br/>
+                                    Armamento: (1x) canhão 20 mm MG 151 / (2x) metralhadoras 13 mm MG 131<br/><br/>
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-cartao">
+                <div class="informacoes">
+                    <h2 class="nome"> P-51 Mustang</h2>
+                    <img src="src/img/us-flag.png" height ="37" width="73" alt="usa" srcset="">
+                </div>
+                <div class="container-imagem">
+                    <img src="src/img/mustang.png" height ="134" width="238" alt="Mustang" class="imagem-aviao" srcset="">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Fabricante: North American Aviation<br/><br/>
+                                    Período de produção: 1941-1946<br/><br/>
+                                    Velocidade máxima: 698 km/h<br/><br/>
+                                    Altitude máxima: 12.700 m<br/><br/>
+                                    Armamento: (6x) metralhadoras 12,7 mm M2 Browning<br/><br/>
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-cartao">
+                <div class="informacoes">
+                    <h2 class="nome">A6M Zero</h2>
+                    <img src="src/img/jap-flag.png" height ="37" width="73" alt="jap" srcset="">
+                </div>
+                <div class="container-imagem">
+                    <img src="src/img/zero.png" height ="146" width="259" alt="Zero" class="imagem-aviao" srcset="">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Fabricante: Mitsubishi Heavy Industries<br/><br/>
+                                    Período de produção: 1940–1945<br/><br/>
+                                    Velocidade máxima: 510 km/h<br/><br/>
+                                    Altitude máxima: 10.300 m<br/><br/>
+                                    Armamento: (2x) canhões 20 mm Type 99 Model 1 / (2x) metralhadoras 7,7 mm Type 97<br/><br/>
+                    </p>
+                </div>
+            </li>
+            
+            <li class="cartao fundo-cartao">
+                <div class="informacoes">
+                    <h2 class="nome">Yak-3</h2>
+                    <img src="src/img/urss-flag.png" height ="37" width="73" alt="rus" srcset="">
+                </div>
+                <div class="container-imagem">
+                    <img src="src/img/yak.png" height ="154" width="274" alt="Yak" class="imagem-aviao" srcset="">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Fabricante: A.S. Yakovlev Design Bureau<br/><br/>
+                                    Período de produção: 1944-1952<br/><br/>
+                                    Velocidade máxima: 650 km/h<br/><br/>
+                                    Altitude máxima: 10.400 m<br/><br/>
+                                    Armamento: (1x) canhão 20 mm ShVAK / (2x) metralhadoras 12,7 mm Berezin UB<br/><br/>
+                    </p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src\img\arrow-icon.png" height ="50" width="50" alt="seta avançar" srcset="">
+        </button>
+    </main>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
